@@ -3,6 +3,7 @@ import 'package:uniswap_app/theme/app_colors.dart';
 import 'package:uniswap_app/models/product.dart';
 import 'package:uniswap_app/widgets/stepper_bar.dart';
 import 'package:uniswap_app/widgets/app_buttons.dart';
+import 'package:uniswap_app/widgets/app_image.dart';
 import 'package:uniswap_app/services/data_repository.dart';
 import 'package:provider/provider.dart';
 import 'package:image_picker/image_picker.dart';
@@ -547,10 +548,7 @@ class _PublishFlowPageState extends State<PublishFlowPage> {
   }
 
   Widget _buildPreviewImage(String url, {double? height}) {
-    if (url.startsWith('http')) {
-      return Image.network(url, height: height, width: double.infinity, fit: BoxFit.cover);
-    }
-    return Image.file(File(url), height: height, width: double.infinity, fit: BoxFit.cover);
+    return Image(image: appImageProvider(url), height: height, width: double.infinity, fit: BoxFit.cover);
   }
 
   Widget _buildStepPreview() {

@@ -4,6 +4,7 @@ import 'package:uniswap_app/services/data_repository.dart';
 import 'package:uniswap_app/theme/app_colors.dart';
 import 'package:uniswap_app/models/product.dart';
 import 'package:uniswap_app/models/transaction.dart';
+import 'package:uniswap_app/widgets/app_image.dart';
 
 class TransactionIntentPageArgs {
   final String productId;
@@ -93,7 +94,7 @@ class _TransactionIntentPageState extends State<TransactionIntentPage> {
                     children: [
                       ClipRRect(
                         borderRadius: BorderRadius.circular(10),
-                        child: Image.network(product.imageUrls.first, width: 60, height: 60, fit: BoxFit.cover),
+                        child: Image(image: appImageProvider(product.imageUrls.first), width: 60, height: 60, fit: BoxFit.cover),
                       ),
                       const SizedBox(width: 12),
                       Expanded(

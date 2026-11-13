@@ -27,4 +27,5 @@ flutter:
 
   assets:
     - assets/images/
+    - assets/images/products/
     - UniSwap_Design_Package/assets/

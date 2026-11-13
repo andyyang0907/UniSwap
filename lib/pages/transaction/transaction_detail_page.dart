@@ -4,6 +4,7 @@ import 'package:uniswap_app/services/data_repository.dart';
 import 'package:uniswap_app/theme/app_colors.dart';
 import 'package:uniswap_app/models/transaction.dart';
 import 'package:uniswap_app/widgets/app_buttons.dart';
+import 'package:uniswap_app/widgets/app_image.dart';
 
 class TransactionDetailPage extends StatelessWidget {
   final String transactionId;
@@ -125,7 +126,7 @@ class TransactionDetailPage extends StatelessWidget {
         children: [
           ClipRRect(
             borderRadius: BorderRadius.circular(12),
-            child: Image.network(tx.productImage, height: 160, width: double.infinity, fit: BoxFit.cover),
+            child: Image(image: appImageProvider(tx.productImage), height: 160, width: double.infinity, fit: BoxFit.cover),
           ),
           const SizedBox(height: 12),
           Text(tx.productTitle, style: const TextStyle(fontSize: 16, fontWeight: FontWeight.w700)),

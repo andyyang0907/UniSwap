@@ -7,6 +7,7 @@ import 'package:uniswap_app/theme/app_colors.dart';
 import 'package:uniswap_app/widgets/product_card.dart';
 import 'package:uniswap_app/widgets/empty_state.dart';
 import 'package:uniswap_app/widgets/app_buttons.dart';
+import 'package:uniswap_app/widgets/app_image.dart';
 import 'package:uniswap_app/models/transaction.dart';
 import 'package:uniswap_app/pages/publish/publish_entry_page.dart';
 
@@ -246,7 +247,7 @@ class _TransactionTile extends StatelessWidget {
           children: [
             ClipRRect(
               borderRadius: BorderRadius.circular(10),
-              child: Image.network(tx.productImage, width: 60, height: 60, fit: BoxFit.cover),
+              child: Image(image: appImageProvider(tx.productImage), width: 60, height: 60, fit: BoxFit.cover),
             ),
             const SizedBox(width: 12),
             Expanded(

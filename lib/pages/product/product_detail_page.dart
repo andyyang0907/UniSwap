@@ -6,6 +6,7 @@ import 'package:uniswap_app/services/data_repository.dart';
 import 'package:uniswap_app/theme/app_colors.dart';
 import 'package:uniswap_app/models/product.dart';
 import 'package:uniswap_app/pages/transaction/transaction_intent_page.dart';
+import 'package:uniswap_app/widgets/app_image.dart';
 
 class ProductDetailPage extends StatefulWidget {
   final String productId;
@@ -91,8 +92,8 @@ class _ProductDetailPageState extends State<ProductDetailPage> {
             onPageChanged: (i) => setState(() => _imageIndex = i),
             itemBuilder: (_, i) => Hero(
               tag: 'product_image_${product.id}',
-              child: Image.network(
-                images[i],
+              child: Image(
+                image: appImageProvider(images[i]),
                 fit: BoxFit.cover,
                 width: double.infinity,
                 height: double.infinity,

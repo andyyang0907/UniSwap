@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:uniswap_app/models/product.dart';
 import 'package:uniswap_app/theme/app_colors.dart';
+import 'package:uniswap_app/widgets/app_image.dart';
 
 class ProductCard extends StatelessWidget {
   final Product product;
@@ -112,8 +113,8 @@ class ProductCard extends StatelessWidget {
       ),
       child: ClipRRect(
         borderRadius: BorderRadius.circular(14),
-        child: Image.network(
-          product.imageUrls.first,
+        child: Image(
+          image: appImageProvider(product.imageUrls.first),
           fit: BoxFit.cover,
           width: width,
           height: height,

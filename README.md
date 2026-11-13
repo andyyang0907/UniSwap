@@ -4,20 +4,18 @@
 
 ## 界面预览
 
-[![iOS 首页](/thiswind/UniSwap/raw/main/screenshots/ios_01_home.jpg)](/thiswind/UniSwap/blob/main/screenshots/ios_01_home.jpg) [![iOS 发现](/thiswind/UniSwap/raw/main/screenshots/ios_02_discover.jpg)](/thiswind/UniSwap/blob/main/screenshots/ios_02_discover.jpg) [![iOS 发布](/thiswind/UniSwap/raw/main/screenshots/ios_03_publish.jpg)](/thiswind/UniSwap/blob/main/screenshots/ios_03_publish.jpg) [![iOS 消息](/thiswind/UniSwap/raw/main/screenshots/ios_04_messages.jpg)](/thiswind/UniSwap/blob/main/screenshots/ios_04_messages.jpg) [![iOS 我的](/thiswind/UniSwap/raw/main/screenshots/ios_05_profile.jpg)](/thiswind/UniSwap/blob/main/screenshots/ios_05_profile.jpg)
+[![iOS 首页](/andyyang0907/UniSwap/raw/main/screenshots/ios_01_home.jpg)](/andyyang0907/UniSwap/blob/main/screenshots/ios_01_home.jpg) [![iOS 发现](/andyyang0907/UniSwap/raw/main/screenshots/ios_02_discover.jpg)](/andyyang0907/UniSwap/blob/main/screenshots/ios_02_discover.jpg) [![iOS 发布](/andyyang0907/UniSwap/raw/main/screenshots/ios_03_publish.jpg)](/andyyang0907/UniSwap/blob/main/screenshots/ios_03_publish.jpg) [![iOS 消息](/andyyang0907/UniSwap/raw/main/screenshots/ios_04_messages.jpg)](/andyyang0907/UniSwap/blob/main/screenshots/ios_04_messages.jpg) [![iOS 我的](/andyyang0907/UniSwap/raw/main/screenshots/ios_05_profile.jpg)](/andyyang0907/UniSwap/blob/main/screenshots/ios_05_profile.jpg)
 _iOS_
 
-<!-- Android 截图待补充 -->
-<!-- [![Android 首页](/thiswind/UniSwap/raw/main/screenshots/android_01_home.png)](/thiswind/UniSwap/blob/main/screenshots/android_01_home.png) -->
-<!-- [![Android 商品详情](/thiswind/UniSwap/raw/main/screenshots/android_02_product.png)](/thiswind/UniSwap/blob/main/screenshots/android_02_product.png) -->
-<!-- _Android_ -->
+[![Android 首页](/andyyang0907/UniSwap/raw/main/screenshots/android_01_home.png)](/andyyang0907/UniSwap/blob/main/screenshots/android_01_home.png) [![Android 发现](/andyyang0907/UniSwap/raw/main/screenshots/android_02_discover.png)](/andyyang0907/UniSwap/blob/main/screenshots/android_02_discover.png) [![Android 发布](/andyyang0907/UniSwap/raw/main/screenshots/android_03_publish.png)](/andyyang0907/UniSwap/blob/main/screenshots/android_03_publish.png) [![Android 消息](/andyyang0907/UniSwap/raw/main/screenshots/android_04_messages.png)](/andyyang0907/UniSwap/blob/main/screenshots/android_04_messages.png) [![Android 商品详情](/andyyang0907/UniSwap/raw/main/screenshots/android_05_product.png)](/andyyang0907/UniSwap/blob/main/screenshots/android_05_product.png) [![Android 校园地图](/andyyang0907/UniSwap/raw/main/screenshots/android_06_campus_map.png)](/andyyang0907/UniSwap/blob/main/screenshots/android_06_campus_map.png)
+_Android_
 
 ## 下载安装
 
 * **iOS**：开发者模式安装 IPA（见下文）
-* **Android**：扫码或从 [Releases](https://github.com/thiswind/UniSwap/releases/latest) 下载 APK 安装
+* **Android**：扫码或从 [Releases](https://github.com/andyyang0907/UniSwap/releases/latest) 下载 APK 安装
 
-<!-- [![Android 版下载二维码](/thiswind/UniSwap/raw/main/screenshots/download_qr.png "扫码下载 Android 版")](/thiswind/UniSwap/blob/main/screenshots/download_qr.png) -->
+[![Android 版下载二维码](/andyyang0907/UniSwap/raw/main/screenshots/download_qr.png "扫码下载 Android 版")](/andyyang0907/UniSwap/blob/main/screenshots/download_qr.png)
 
 扫码后若微信拦截下载，请点右上角菜单 →「在浏览器打开」，浏览器下载后点击安装（需允许安装未知来源应用）。
 
